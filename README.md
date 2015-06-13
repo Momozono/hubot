@@ -29,3 +29,9 @@ you're having issues.
 
 ## Add original scripts 
 To add original scripts, make foobar.coffee file and place scripts dir. This only.
+
+**Sample script.**
+
+	module.exports = (robot) ->
+	  robot.hear /foo/i, (msg) ->
+	    msg.reply 'bar'  #react 'foo' & reply 'bar'
